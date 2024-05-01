@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Foodmatch", "Foodmatch\Foodmatch.vbproj", "{932F29CE-E502-47DA-9EF8-B5D7BBF4076F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932F29CE-E502-47DA-9EF8-B5D7BBF4076F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932F29CE-E502-47DA-9EF8-B5D7BBF4076F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932F29CE-E502-47DA-9EF8-B5D7BBF4076F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932F29CE-E502-47DA-9EF8-B5D7BBF4076F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44269E60-B69B-4C1A-AF1D-117E2CAFC2BB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.vbproj.AssemblyReference.cache
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.Resources.resources
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.vbproj.GenerateResource.cache
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.vbproj.CoreCompileInputs.cache
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.MainForm.resources
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\bin\Debug\Foodmatch.exe.config
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\bin\Debug\Foodmatch.exe
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\bin\Debug\Foodmatch.pdb
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\bin\Debug\Foodmatch.xml
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.exe
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.xml
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.pdb
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormCD.resources
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.formIBS.resources
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormUC.resources
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormGERD.resources
+D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormCrohn.resources
