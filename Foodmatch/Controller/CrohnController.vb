@@ -64,20 +64,22 @@ existing inflammatory bowel diseases (Keewan et al., 2020)."
 
             ElseIf ContainsKeyword(crohnTextBoxLower, "spicy") OrElse ContainsKeyword(crohnTextBoxLower, "hot") Then
                 crohnResultsLbl.Text = "RISKY. Spicy foods are one of the top triggers of Crohn’s
-disease. Spicy foods contain capsaicin, which is the reason why spicy foods feel hot. Capsaicin
-may irritate the lining of your small intestine and trigger gut inflammation (Bergam, 2023),
-worsening stomach pain and diarrhea (CARESPACE, 2023). Even for healthy people, frequent
-consumption of spicy foods may lead to development of Crohn’s disease (Bergam, 2023),
+disease. Spicy foods contain capsaicin, which is the reason why spicy foods feel
+hot. Capsaicin may irritate the lining of your small intestine and trigger gut
+inflammation (Bergam, 2023), worsening stomach pain and diarrhea
+(CARESPACE, 2023). Even for healthy people, frequent consumption of spicy foods
+may lead to development of Crohn’s disease (Bergam, 2023),
 especially if they are at high risk."
 
             ElseIf crohnDataInstance.carbonatedDrinksList.Contains(crohnTextBoxLower) Then
                 crohnResultsLbl.Text = "RISKY. Carbonated beverages are known to contribute
 to 'inflammation induction and gut microbiota alteration'. It is a beverage highly
-associated with the risk of Crohn’s Disease. Reducing intake of carbonated beverages
-could decrease the occurrence of the disease (Yang, Xiang & He, 2019).
-Dr. Keith Sultan of the Northwell Long Island Jewish Medical Center also described
-carbonated beverages as 'notorious' for causing cramps, bloating and diarrhea most
-especially to patients of Crohn’s Disease (Myers, 2023)."
+associated with the risk of Crohn’s Disease. Reducing intake of carbonated
+beverages could decrease the occurrence of the disease
+(Yang, Xiang & He, 2019). Dr. Keith Sultan of the Northwell Long Island
+Jewish Medical Center also described carbonated beverages as 'notorious'
+for causing cramps, bloating and diarrhea most especially to patients of
+Crohn’s Disease (Myers, 2023)."
 
             ElseIf crohnDataInstance.fruitsFodmapList.Contains(crohnTextBoxLower) Then
                 If ContainsKeyword(crohnTextBoxLower, "ripe banana") Then
@@ -92,11 +94,12 @@ carbohydrates may worsen symptoms of bloating and diarrhea (Amidor, 2024)."
                     ContainsKeyword(crohnTextBoxLower, "tea") Then
                 crohnResultsLbl.Text = "RISKY. Caffeine is known to stimulate bowel
 movement and worsen symptoms of diarrhea (Nall, 2023). Although there is little
-to no association between caffeinated beverages and Crohn’s Disease (Myers, 2023),
-people with Crohn’s disease are typically advised to refrain from drinking it,
-especially during flare-ups. Caffeinated beverages are not necessarily harmful,
-but it may aggravate some symptoms. Best drink in moderation and regulated doses.
-Better if you will opt for decaffeinated beverages instead."
+to no association between caffeinated beverages and Crohn’s Disease 
+(Myers, 2023), people with Crohn’s disease are typically advised to
+refrain from drinking it, especially during flare-ups. Caffeinated
+beverages are not necessarily harmful, but it may aggravate some
+symptoms. Best drink in moderation and regulated doses. Better if
+you will opt for decaffeinated beverages instead."
 
             ElseIf ContainsKeyword(crohnTextBoxLower, "beans") OrElse crohnDataInstance.beansLegumesList.Contains(crohnTextBoxLower) Then
                 crohnResultsLbl.Text = "RISKY. Beans and legumes are a healthy source

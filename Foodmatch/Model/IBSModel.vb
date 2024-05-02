@@ -35,7 +35,8 @@
             "biscuit", "biscuits",
             "palm oil", "coconut oil",
             "coconut cream", "soda",
-            "coffee"}
+            "coffee"
+        }
 
         Public fructoseProductsList As New List(Of String) From {
             "apple", "apples",

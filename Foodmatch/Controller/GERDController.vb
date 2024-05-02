@@ -14,9 +14,11 @@ Namespace GERD
 
             If ContainsKeyword(gerdTextBoxLower, "choco") OrElse ContainsKeyword(gerdTextBoxLower, "chocolate") OrElse gerdDataInstance.chocolateList.Contains(gerdTextBoxLower) Then
                 gerdResultsLbl.Text = "RISKY. Chocolate, cocoa and caffeine contains theobromine.
-Eating such foods cause the body to release serotonin hormones which may lead to relaxation of the
-body’s LES (lower esophageal sphincter), allowing acid from the stomach to leak into the esophagus.
-When this happens, burning sensation in the esophagus can be felt, which is a symptom of acid reflux (Healthline, 2023)."
+Eating such foods cause the body to release serotonin hormones which may
+lead to relaxation of the body’s LES (lower esophageal sphincter),
+allowing acid from the stomach to leak into the esophagus. 
+When this happens, burning sensation in the esophagus can be felt,
+which is a symptom of acid reflux (Healthline, 2023)."
 
             ElseIf ContainsKeyword(gerdTextBoxLower, "peppermint") OrElse ContainsKeyword(gerdTextBoxLower, "mint") Then
                 gerdResultsLbl.Text = "RISKY. Peppermint and mint worsen GERD symptoms through LES
@@ -24,32 +26,38 @@ When this happens, burning sensation in the esophagus can be felt, which is a sy
 
             ElseIf ContainsKeyword(gerdTextBoxLower, "spicy") OrElse ContainsKeyword(gerdTextBoxLower, "hot") Then
                 gerdResultsLbl.Text = "RISKY. Spicy foods can cause abdominal pain and burning symptoms.
-Spicy foods contain capsaicin which irritates parts of the esophagus, resulting in acid reflux.
-If you regularly experience acid reflux, it is safest to avoid eating spicy foods (Healthline, 2023)."
+Spicy foods contain capsaicin which irritates parts of the esophagus, resulting in
+acid reflux. If you regularly experience acid reflux, it is safest to avoid eating
+spicy foods (Healthline, 2023)."
 
             ElseIf gerdDataInstance.carbonatedBeverageList.Contains(gerdTextBoxLower) Then
                 gerdResultsLbl.Text = "RISKY. Have properties that potentially worsen GERD,
-such as high acidity and carbonation. GERD Patients are recommended to stop drinking carbonated
-drinks (National Library of Medicine, 2021 & National Institute of Diabetes and Digestive and
-Kidney Diseases, 2020, as cited in MedicalNewsToday, 2023)."
+such as high acidity and carbonation. GERD Patients are recommended to stop
+drinking carbonated drinks (National Library of Medicine, 2021 & National
+Institute of Diabetes and Digestive and Kidney Diseases, 2020, as cited in
+MedicalNewsToday, 2023)."
 
             ElseIf ContainsKeyword(gerdTextBoxLower, "fried") OrElse ContainsKeyword(gerdTextBoxLower, "fry") OrElse
                 ContainsKeyword(gerdTextBoxLower, "fries") OrElse gerdDataInstance.fattyFriedFoodList.Contains(gerdTextBoxLower) Then
                 gerdResultsLbl.Text = "RISKY. Fatty and Fried foods both contribute to acid reflux. 
-Both Fatty and Fried Foods generally lower pressure on your LES that’s why it delays our stomach
-from emptying. The slow emptying of your stomach can lead to acid backing up into the esophagus
-(National Institute of Diabetes and Digestive and Kidney Diseases, 2020, as cited in Healthline, 2023)."
+Both Fatty and Fried Foods generally lower pressure on your LES that’s why it
+delays our stomach from emptying. The slow emptying of your stomach can lead
+to acid backing up into the esophagus (National Institute of Diabetes and
+Digestive and Kidney Diseases, 2020, as cited in Healthline, 2023)."
 
             ElseIf ContainsKeyword(gerdTextBoxLower, "tomato") OrElse gerdDataInstance.tomatoList.Contains(gerdTextBoxLower) Then
                 gerdResultsLbl.Text = "RISKY. Tomatoes are highly acidic which can cause acid reflux or heartburn.
-The acid level from tomatoes can relax the LES which is the muscle that separates the stomach from the esophagus.
-Limiting the consumption of tomatoes or simply controlling the portion size can be a lot of help because it puts
-less pressure on your stomach (Vanguard Gastroenterology, 2023)."
+The acid level from tomatoes can relax the LES which is the muscle that
+separates the stomach from the esophagus. Limiting the consumption of
+tomatoes or simply controlling the portion size can be a lot of help
+because it puts less pressure on your stomach 
+(Vanguard Gastroenterology, 2023)."
 
             ElseIf ContainsKeyword(gerdTextBoxLower, "milk") OrElse gerdDataInstance.dairyFoodList.Contains(gerdTextBoxLower) Then
                 gerdResultsLbl.Text = "RISKY. Foods that contain dairy are more likely to cause heartburns
-. Although it doesn’t directly cause acid reflux, it can worsen the symptoms upon consumption.
-Eating cold full fat yogurt can slow down your digestion because it numbs the lower esophageal sphincter
+. Although it doesn’t directly cause acid reflux, it can worsen the
+symptoms upon consumption. Eating cold full fat yogurt can slow down 
+your digestion because it numbs the lower esophageal sphincter
 (GERDHelp, 2024)."
 
             ElseIf ContainsKeyword(gerdTextBoxLower, "oxybutynin") Then

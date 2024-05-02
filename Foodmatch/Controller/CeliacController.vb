@@ -43,13 +43,13 @@ it poses a risk (WebMD, 2023)."
 
             ElseIf ContainsKeyword(celiacTextBoxLower, "canned soup") Then
                 celiacResultsLbl.Text = "RISKY. Canned soups may contain gluten as one of its (hidden) ingredients.
-Please make sure that your canned soup is gluten-free or do not contain gluten in its
-ingredients before consumption (Restivo, 2023)."
+Please make sure that your canned soup is gluten-free or do not contain gluten
+in its ingredients before consumption (Restivo, 2023)."
 
             ElseIf celiacDataInstance.beansList.Contains(celiacTextBoxLower) Then
                 celiacResultsLbl.Text = "RISKY. eating beans that has gluten additive for a person who has
-celiac disease can damage the lining of the small intestine (bowel), which prevents
-the proper absorption of food nutrients (Everyday Health, 2023)."
+celiac disease can damage the lining of the small intestine (bowel),
+which prevents the proper absorption of food nutrients (Everyday Health, 2023)."
 
             ElseIf String.IsNullOrEmpty(celiacTextBoxLower) OrElse String.IsNullOrWhiteSpace(celiacTextBoxLower) Then
                 celiacResultsLbl.Text = "Invalid Input ..."

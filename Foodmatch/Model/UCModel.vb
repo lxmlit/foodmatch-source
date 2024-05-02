@@ -93,7 +93,7 @@
         }
 
         Public peasBeansLentilsList As New List(Of String) From {
-            "chickpeas", "soy nuts", "soybeans", "edamame"
+            "chickpeas", "soy nuts", " ", "edamame"
         }
 
         Public carbonatedProdList As New List(Of String) From {

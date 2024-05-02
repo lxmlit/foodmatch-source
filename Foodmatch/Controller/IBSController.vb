@@ -21,7 +21,8 @@
             ElseIf ContainsKeyword(ibsTextBoxLower, "fried") OrElse ContainsKeyword(ibsTextBoxLower, "fries") OrElse ContainsKeyword(ibsTextBoxLower, "fry") Then
                 resultsLabel.Text = "RISKY (especially for IBS diarrhea).
 Fried foods are high in fat and may be hard to digest for people with IBS.
-Frying foods change the chemical composition of food which may make it difficult to digest (Healthline, 2024)."
+Frying foods change the chemical composition of food which may make it difficult
+to digest (Healthline, 2024)."
 
             ElseIf ibsDataInstance.fattyFoodList.Contains(ibsTextBoxLower) Then
                 resultsLabel.Text = "RISKY. This is a fatty cut of meat.

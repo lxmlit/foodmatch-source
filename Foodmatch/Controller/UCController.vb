@@ -40,17 +40,20 @@ with a heightening in ache or unease. Consuming zesty eatables
 amidst such flare-ups might worsen sufferings (MedicalNewsToday, 2023)."
 
             ElseIf UCDataInstance.sweetsList.Contains(ucTextBoxLower) Then
-                ucResultsLbl.Text = "RISKY. May trigger ulcerative colitis flare-up (MedicalNewsToday, 2023)."
+                ucResultsLbl.Text = "RISKY. May trigger ulcerative colitis flare-up
+(MedicalNewsToday, 2023)."
 
             ElseIf UCDataInstance.boozeList.Contains(ucTextBoxLower) Then
-                ucResultsLbl.Text = "RISKY. Might exacerbate symptoms of ulcerative colitis (Healthline, 2023). "
+                ucResultsLbl.Text = "RISKY. Might exacerbate symptoms of ulcerative colitis
+(Healthline, 2023). "
 
             ElseIf UCDataInstance.nutsList.Contains(ucTextBoxLower) OrElse ContainsKeyword(ucTextBoxLower, "nut") Then
                 If ContainsKeyword(ucTextBoxLower, "walnut") Then
                     ucResultsLbl.Text = "SAFE"
                 Else
                     ucResultsLbl.Text = "RISKY. Whole nuts may aggravate ulcerative colitis symptoms.
-They could be difficult to digest because of their high sulfur content (Healthline, 2023)."
+They could be difficult to digest because of their high sulfur content
+(Healthline, 2023)."
                 End If
 
             ElseIf ContainsKeyword(ucTextBoxLower, "fried") OrElse ContainsKeyword(ucTextBoxLower, "fries") Then
@@ -60,24 +63,30 @@ They could be difficult to digest because of their high sulfur content (Healthli
                     ucResultsLbl.Text = "SAFE"
                 Else
                     ucResultsLbl.Text = "RISKY. The main concern for fried foods are its greasiness and oiliness.
-Oils used for frying fried foods often contain lots of trans fats which promote gut inflammation.
-It’s best to opt for air-fried or oven-fried foods instead (Taylor, 2023)."
+Oils used for frying fried foods often contain lots of trans fats which promote gut
+inflammation. It’s best to opt for air-fried or oven-fried foods instead
+(Taylor, 2023)."
                 End If
 
             ElseIf UCDataInstance.nsaidsDrugList.Contains(ucTextBoxLower) Then
-                ucResultsLbl.Text = "RISKY. Although NSAIDs are known to ease inflammation and pain,
-it also causes the digestive system to lose 'some of its normal protective substances'.
-Instead, NSAIDs can cause inflammation and worsen intestinal (small intestine)
-bleeding (Tresca, 2022). Studies posted at the National Center for Biotechnology
-Information in 1996 and 2010 also suggest the risk of taking NSAIDs for somebody
-with ulcerative colitis, or at risk for ulcerative colitis. NSAIDs have the potential
-to cause mucosal injury leading to 'increased intestinal permeability'.
+                ucResultsLbl.Text = "RISKY. Although NSAIDs are known to ease
+inflammation and pain, it also causes the digestive
+system to lose 'some of its normal protective
+substances'. Instead, NSAIDs can cause
+inflammation and worsen intestinal (small intestine)
+bleeding (Tresca, 2022). Studies posted at the National
+Center for Biotechnology Information in 1996 and 2010
+also suggest the risk of taking NSAIDs for somebody
+with ulcerative colitis, or at risk for ulcerative
+colitis. NSAIDs have the potential to cause mucosal
+injury leading to 'increased intestinal permeability'.
 Before taking NSAIDs, first consult your doctor. "
 
             ElseIf ContainsKeyword(ucTextBoxLower, "corn") Then
                 ucResultsLbl.Text = "RISKY. The thick skins of the corn and popcorn kernels are
-not easy to digest. For many UC (ulcerative colitis) patients, popcorns and corns cause cramps
-and discomfort. Additionally, popcorns and corns are high in fiber, which can worsen UC symptoms
+not easy to digest. For many UC (ulcerative colitis) patients,
+popcorns and corns cause cramps and discomfort. Additionally,
+popcorns and corns are high in fiber, which can worsen UC symptoms
 (Nutrition4IBD, 2019)."
 
             ElseIf ContainsKeyword(ucTextBoxLower, "chocolate") OrElse ContainsKeyword(ucTextBoxLower, "coffee") OrElse ContainsKeyword(ucTextBoxLower, "energy drink") Then
