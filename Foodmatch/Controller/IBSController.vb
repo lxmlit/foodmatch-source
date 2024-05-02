@@ -106,6 +106,9 @@ that are not digested or difficult to digest. To make digestion of beans,
 peas and legumes easier, it is recommended to soak them overnight before
 thoroughly cooking and then consuming them (Moore et al., 2024)."
 
+            ElseIf String.IsNullOrEmpty(ibsTextBoxLower) OrElse String.IsNullOrWhiteSpace(ibsTextBoxLower) Then
+                resultsLabel.Text = "Invalid Input ..."
+
             Else
                 resultsLabel.Text = "SAFE"
             End If

@@ -56,7 +56,7 @@ Partial Class FormCrohn
         'crohnResultsLbl
         '
         Me.crohnResultsLbl.AutoSize = True
-        Me.crohnResultsLbl.Location = New System.Drawing.Point(73, 171)
+        Me.crohnResultsLbl.Location = New System.Drawing.Point(36, 170)
         Me.crohnResultsLbl.Name = "crohnResultsLbl"
         Me.crohnResultsLbl.Size = New System.Drawing.Size(96, 13)
         Me.crohnResultsLbl.TabIndex = 4

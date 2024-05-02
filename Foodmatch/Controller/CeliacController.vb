@@ -51,6 +51,9 @@ ingredients before consumption (Restivo, 2023)."
 celiac disease can damage the lining of the small intestine (bowel), which prevents
 the proper absorption of food nutrients (Everyday Health, 2023)."
 
+            ElseIf String.IsNullOrEmpty(celiacTextBoxLower) OrElse String.IsNullOrWhiteSpace(celiacTextBoxLower) Then
+                celiacResultsLbl.Text = "Invalid Input ..."
+
             Else
                 celiacResultsLbl.Text = "SAFE"
             End If

@@ -107,6 +107,9 @@ Cleveland Clinic, 2024). To further add, beans and legumes are
 'high in insoluble fiber', a component that is difficult to digest,
 which may cause flare-ups or worsen diarrhea (Bernstein, 2022)."
 
+            ElseIf String.IsNullOrEmpty(crohnTextBoxLower) OrElse String.IsNullOrWhiteSpace(crohnTextBoxLower) Then
+                crohnResultsLbl.Text = "Invalid Input ..."
+
             Else
                 crohnResultsLbl.Text = "SAFE"
 

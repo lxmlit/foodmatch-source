@@ -42,7 +42,7 @@
             "salad sauces", "dressing",
             "dressings", "ice cream",
             "protein shakes", "bread",
-            "sour cream"
+            "sour cream", "cake", "cakes"
         }
 
         Public boozeList As New List(Of String) From {
@@ -51,7 +51,9 @@
             "whiskey", "brandy",
             "tequila", "rum",
             "vodka", "mezcal",
-            "absinthe", "soju"
+            "absinthe", "soju",
+            "arrack", "everclear shochu",
+            "ruou de poitin", "raki"
         }
 
         Public nutsList As New List(Of String) From {
@@ -62,7 +64,8 @@
             "macadamia nuts", "peanuts",
             "pistachios", "chestnuts", "pili nuts",
             "betel nuts", "canarium nuts",
-            "filbert nuts"
+            "filbert nuts", "baru nuts", "chestnuts",
+            "acorns", "canarium nuts", "filbert nuts"
         }
 
 

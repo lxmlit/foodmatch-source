@@ -158,6 +158,9 @@ symptoms of GERD due to alcohol. Hence, alcohol may still pose
 a risk if your stomach is sensitive to it. Best drink in 
 moderation. (Nall, 2023)."
 
+            ElseIf String.IsNullOrEmpty(gerdTextBoxLower) OrElse String.IsNullOrWhiteSpace(gerdTextBoxLower) Then
+                gerdResultsLbl.Text = "Invalid Input ..."
+
             Else
                 gerdResultsLbl.Text = "SAFE"
             End If

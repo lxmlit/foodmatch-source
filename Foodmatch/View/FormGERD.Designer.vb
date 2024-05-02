@@ -56,9 +56,9 @@ Partial Class FormGERD
         'gerdResultsLbl
         '
         Me.gerdResultsLbl.AutoSize = True
-        Me.gerdResultsLbl.Location = New System.Drawing.Point(73, 171)
+        Me.gerdResultsLbl.Location = New System.Drawing.Point(36, 170)
         Me.gerdResultsLbl.Name = "gerdResultsLbl"
-        Me.gerdResultsLbl.Size = New System.Drawing.Size(176, 13)
+        Me.gerdResultsLbl.Size = New System.Drawing.Size(96, 13)
         Me.gerdResultsLbl.TabIndex = 4
         Me.gerdResultsLbl.Text = "Waiting for input ..."
         '

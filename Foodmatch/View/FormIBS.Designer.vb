@@ -56,9 +56,9 @@ Partial Class formIBS
         'resultsLabel
         '
         Me.resultsLabel.AutoSize = True
-        Me.resultsLabel.Location = New System.Drawing.Point(73, 171)
+        Me.resultsLabel.Location = New System.Drawing.Point(36, 170)
         Me.resultsLabel.Name = "resultsLabel"
-        Me.resultsLabel.Size = New System.Drawing.Size(176, 13)
+        Me.resultsLabel.Size = New System.Drawing.Size(96, 13)
         Me.resultsLabel.TabIndex = 4
         Me.resultsLabel.Text = "Waiting for input ..."
         '

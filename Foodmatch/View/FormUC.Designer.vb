@@ -31,13 +31,10 @@ Partial Class FormUC
         Me.symptomsTabLabel = New System.Windows.Forms.Label()
         Me.riskFactorsTab = New System.Windows.Forms.TabPage()
         Me.riskFactorsTabLabel = New System.Windows.Forms.Label()
-        Me.specificFoodsTab = New System.Windows.Forms.TabPage()
-        Me.specificFoodsTabLabel = New System.Windows.Forms.Label()
         Me.ucMatchBtn = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.symptomsTab.SuspendLayout()
         Me.riskFactorsTab.SuspendLayout()
-        Me.specificFoodsTab.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -59,7 +56,7 @@ Partial Class FormUC
         'ucResultsLbl
         '
         Me.ucResultsLbl.AutoSize = True
-        Me.ucResultsLbl.Location = New System.Drawing.Point(73, 171)
+        Me.ucResultsLbl.Location = New System.Drawing.Point(36, 171)
         Me.ucResultsLbl.Name = "ucResultsLbl"
         Me.ucResultsLbl.Size = New System.Drawing.Size(96, 13)
         Me.ucResultsLbl.TabIndex = 4
@@ -69,7 +66,6 @@ Partial Class FormUC
         '
         Me.TabControl1.Controls.Add(Me.symptomsTab)
         Me.TabControl1.Controls.Add(Me.riskFactorsTab)
-        Me.TabControl1.Controls.Add(Me.specificFoodsTab)
         Me.TabControl1.Location = New System.Drawing.Point(422, 72)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -114,26 +110,6 @@ Partial Class FormUC
         Me.riskFactorsTabLabel.Size = New System.Drawing.Size(0, 13)
         Me.riskFactorsTabLabel.TabIndex = 0
         '
-        'specificFoodsTab
-        '
-        Me.specificFoodsTab.Controls.Add(Me.specificFoodsTabLabel)
-        Me.specificFoodsTab.Location = New System.Drawing.Point(4, 22)
-        Me.specificFoodsTab.Name = "specificFoodsTab"
-        Me.specificFoodsTab.Padding = New System.Windows.Forms.Padding(3)
-        Me.specificFoodsTab.Size = New System.Drawing.Size(347, 330)
-        Me.specificFoodsTab.TabIndex = 2
-        Me.specificFoodsTab.Text = "Specific Foods"
-        Me.specificFoodsTab.UseVisualStyleBackColor = True
-        '
-        'specificFoodsTabLabel
-        '
-        Me.specificFoodsTabLabel.AutoSize = True
-        Me.specificFoodsTabLabel.Location = New System.Drawing.Point(3, 3)
-        Me.specificFoodsTabLabel.Name = "specificFoodsTabLabel"
-        Me.specificFoodsTabLabel.Size = New System.Drawing.Size(39, 13)
-        Me.specificFoodsTabLabel.TabIndex = 2
-        Me.specificFoodsTabLabel.Text = "Label2"
-        '
         'ucMatchBtn
         '
         Me.ucMatchBtn.BackColor = System.Drawing.Color.Transparent
@@ -164,8 +140,6 @@ Partial Class FormUC
         Me.symptomsTab.PerformLayout()
         Me.riskFactorsTab.ResumeLayout(False)
         Me.riskFactorsTab.PerformLayout()
-        Me.specificFoodsTab.ResumeLayout(False)
-        Me.specificFoodsTab.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -179,7 +153,5 @@ Partial Class FormUC
     Friend WithEvents symptomsTabLabel As Label
     Friend WithEvents riskFactorsTab As TabPage
     Friend WithEvents riskFactorsTabLabel As Label
-    Friend WithEvents specificFoodsTab As TabPage
-    Friend WithEvents specificFoodsTabLabel As Label
     Friend WithEvents ucMatchBtn As Button
 End Class

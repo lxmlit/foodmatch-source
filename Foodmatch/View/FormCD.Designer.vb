@@ -72,9 +72,9 @@ Partial Class FormCD
         '
         Me.celiacResultsLbl.AutoSize = True
         Me.celiacResultsLbl.BackColor = System.Drawing.Color.Transparent
-        Me.celiacResultsLbl.Location = New System.Drawing.Point(73, 171)
+        Me.celiacResultsLbl.Location = New System.Drawing.Point(36, 171)
         Me.celiacResultsLbl.Name = "celiacResultsLbl"
-        Me.celiacResultsLbl.Size = New System.Drawing.Size(176, 13)
+        Me.celiacResultsLbl.Size = New System.Drawing.Size(96, 13)
         Me.celiacResultsLbl.TabIndex = 4
         Me.celiacResultsLbl.Text = "Waiting for input ..."
         '

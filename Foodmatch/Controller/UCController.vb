@@ -107,6 +107,8 @@ which is not very beneficial for UC patients (Vandever & Rush, 2023). "
 meaning it cannot be dissolved in water (Vandever & Rush, 2023).
 This could cause problems in digestion for UC patients. "
 
+            ElseIf String.IsNullOrEmpty(ucTextBoxLower) OrElse String.IsNullOrWhiteSpace(ucTextBoxLower) Then
+                ucResultsLbl.Text = "Invalid Input ..."
 
             Else
                 ucResultsLbl.Text = "SAFE"
@@ -153,22 +155,6 @@ This could cause problems in digestion for UC patients. "
 • Smoking cessation
 • Unhealthy diet and lifestyle 
 • White or Caucasian race 
-"
-            specificFoodsTabLabel.Text = "Dairy/lactose products 
-
-Butter, kefir, sherbet, heavy cream, cereal, sauces, salad dressings,
-cakes, ice cream, protein shakes, bread, sour cream
-
-Alcohol 
-
-Gin, whiskey, brandy, tequila, rum, vodka, mezcal, absinthe, soju,
-arrack, everclear shochu, ruou de poitin, raki
-
-Nuts
-
-Acorns, chestnuts, pili nuts,  baru nuts,  betel nuts,
-canarium nuts, filbert nuts 
-
 "
 
         End Sub
