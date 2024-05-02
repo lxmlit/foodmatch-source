@@ -41,6 +41,7 @@ Public Class MainForm
     Private Sub ActivateButton(btnSender As Object)
         If btnSender IsNot Nothing Then
             If currentButton.Name <> CType(btnSender, Button).Name Then
+                Dim num1 = 1
                 DisableButton()
                 Dim color As Color = SelectColorTheme()
                 currentButton = CType(btnSender, Button)
@@ -52,6 +53,7 @@ Public Class MainForm
                 ColorTheme.PrimaryColor = color
                 ColorTheme.SecondaryColor = ColorTheme.ChangeColorBrightness(color, -0.3)
                 btnCloseChildForm.Visible = True
+
             End If
         End If
     End Sub
