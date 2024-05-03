@@ -153,7 +153,7 @@ Partial Class FormCD
         Me.Controls.Add(Me.celiacTextBox)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FormCD"
-        Me.Text = "                      "
+        Me.Text = "Celiac Disease"
         Me.TabControl1.ResumeLayout(False)
         Me.symptomsTab.ResumeLayout(False)
         Me.symptomsTab.PerformLayout()
