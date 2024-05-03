@@ -15,20 +15,3 @@ D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.formIBS.
 D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormUC.resources
 D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormGERD.resources
 D:\Lex\programming\visual basic\Foodmatch\Foodmatch\obj\Debug\Foodmatch.FormCrohn.resources
-D:\Downloads\foodmatch-source\Foodmatch\bin\Debug\Foodmatch.exe.config
-D:\Downloads\foodmatch-source\Foodmatch\bin\Debug\Foodmatch.exe
-D:\Downloads\foodmatch-source\Foodmatch\bin\Debug\Foodmatch.pdb
-D:\Downloads\foodmatch-source\Foodmatch\bin\Debug\Foodmatch.xml
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.vbproj.AssemblyReference.cache
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.FormCD.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.FormCrohn.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.FormGERD.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.formIBS.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.FormUC.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.MainForm.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.Resources.resources
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.vbproj.GenerateResource.cache
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.vbproj.CoreCompileInputs.cache
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.exe
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.xml
-D:\Downloads\foodmatch-source\Foodmatch\obj\Debug\Foodmatch.pdb
